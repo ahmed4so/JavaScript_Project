@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="/images/logo.png" alt="Logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        
+        <div class="content">
+            <div class="text">
+                <h2>Iphone 14 Pro Max</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, minima.</p>
+                <br>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="image">
+                <img src="/images/0.png" id="main">
+            </div>
+        </div>      
+
+        <div class="icons">
+            <img onclick="phones(this.src); colors('black')" src="/images/0.png">
+            <img onclick="phones(this.src); colors('#247ec8') "src="/images/1.png" >
+            <img onclick="phones(this.src); colors('#1e1e1e')"src="/images/2.png">
+            <img onclick="phones(this.src); colors('#c79b53')" src="/images/3.png">
+            <img onclick="phones(this.src); colors('red')" src="/images/4.png">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

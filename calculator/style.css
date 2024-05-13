@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+h2
+{
+    color: tomato;
+}
+
+.container
+{
+    background-color:peachpuff;
+    width:400px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 5px;
+    
+}
+
+
+.num
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* Creates a 4-column grid */
+    gap: 15px;
+    
+    
+}
+input
+{
+    width: 230px;
+    height: 30px;
+}
+.num button
+{
+    width: 50px;
+}
+
